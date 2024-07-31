@@ -1,0 +1,1 @@
+ssh -i ~/.ssh/id_ed25519 cdsl@outside-nfs4 showmount -a outside-nfs4
