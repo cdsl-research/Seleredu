@@ -1,0 +1,12 @@
+[Unit]
+Description=execute showmount in nfs-server
+ConditionPathExists=/home/c0a21030/develop
+
+[Service]
+Type=oneshot
+ExecStart=/home/c0a21030/develop/get_nfs_server.sh
+Restart=no
+
+[Install]
+WantedBy=multi-user.target
+

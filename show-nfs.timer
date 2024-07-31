@@ -1,0 +1,10 @@
+[Unit]
+Description=execute showmount in nfs_server
+
+[Timer]
+OnCalendar=0:00
+Unit=show-nfs.service
+
+[Install]
+WantedBy=timers.target
+
